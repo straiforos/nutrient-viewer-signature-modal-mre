@@ -4,4 +4,5 @@ This project is a [MRE](https://stackoverflow.com/help/minimal-reproducible-exam
 
 See the [Angular Projects Readme](./pspdfkit-2024-1-3-to-nutrient-1.2.0/README.md)
 
-<img src="Pspdfkit202413ToNutrient120.jpeg">
+<img src="Pspdfkit202413ToNutrient120signature.jpeg">
+<img src="Pspdfkit202413ToNutrient120stamp.jpeg">
