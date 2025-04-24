@@ -1,6 +1,6 @@
 import { Component, ElementRef, ViewChild, AfterViewInit } from '@angular/core';
-import { from, Observable } from 'rxjs';
-import PSPDFKit from 'pspdfkit';
+import { from } from 'rxjs';
+import NutrientViewer from '@nutrient-sdk/viewer';
 
 @Component({
   selector: 'app-root',
@@ -13,7 +13,7 @@ export class AppComponent implements AfterViewInit {
   @ViewChild('nutrientViewer') nutrientViewer!: ElementRef;
 
   ngAfterViewInit(): void {
-    const instance = from(PSPDFKit.load({
+    const instance = from(NutrientViewer.load({
       baseUrl: location.origin + '/assets/',
       container: this.nutrientViewer.nativeElement,
       document: '/blob.pdf',
